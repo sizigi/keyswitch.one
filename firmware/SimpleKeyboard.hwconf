@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/sls/hc/document/device.ecore" name="EFM8UB10F16G-C-QFN20" partId="com.silabs.mcu.si8051.efm8ub1_g.efm8ub10f16g">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="INTERRUPT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="INTERRUPT_0" propertyId="interrupt.interruptenable.enableallinterrupts" value="Enabled"/>
+    <property object="PBCFG_0" propertyId="pbcfg.settings.enablecrossbar" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USBLIB_0" propertyId="configuration.configurationparameters.configurationstring" value=""/>
+    <property object="USBLIB_0" propertyId="configuration.configurationparameters.devicepower" value="Bus-Powered"/>
+    <property object="USBLIB_0" propertyId="configuration.configurationparameters.remotewakeup" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="device.deviceproperties.bmaxpacketsize" value="64"/>
+    <property object="USBLIB_0" propertyId="device.deviceproperties.devicereleasenumber" value="1"/>
+    <property object="USBLIB_0" propertyId="device.deviceproperties.productidpid" value="35543"/>
+    <property object="USBLIB_0" propertyId="device.deviceproperties.productstring" value="KeyboardOne"/>
+    <property object="USBLIB_0" propertyId="device.deviceproperties.vendorstring" value="Sizigi Studios"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.endpoint1in" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.pollingintervalms" value="10"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.transfertype" value="Interrupt"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1out.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2in.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2out.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint3in.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint3out.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.hidpollingintervalms" value="24"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.hidreportdescriptor" value="&#xA;  0x05, 0x01,                      // USAGE_PAGE (Generic Desktop)&#xA;  0x09, 0x06,                      // USAGE (Keyboard)&#xA;  0xa1, 0x01,                      // COLLECTION (Application)&#xA;  0x05, 0x07,                      // USAGE_PAGE (Keyboard)&#xA;  0x19, 0xe0,                      // USAGE_MINIMUM (Keyboard LeftControl)&#xA;  0x29, 0xe7,                      // USAGE_MAXIMUM (Keyboard Right GUI)&#xA;  0x15, 0x00,                      // LOGICAL_MINIMUM (0)&#xA;  0x25, 0x01,                      // LOGICAL_MAXIMUM (1)&#xA;  0x75, 0x01,                      // REPORT_SIZE (1)&#xA;  0x95, 0x08,                      // REPORT_COUNT (8)&#xA;  0x81, 0x02,                      // INPUT (Data,Var,Abs)&#xA;  0x15, 0x00,                      // LOGICAL_MINIMUM (0)&#xA;  0x25, 0x01,                      // LOGICAL_MAXIMUM (1)&#xA;  0x75, 0x01,                      // REPORT_SIZE (1)&#xA;  0x95, 0x08,                      // REPORT_COUNT (8)&#xA;  0x81, 0x01,                      // INPUT (Cnst,Ary,Abs)&#xA;  0x19, 0x00,                      // USAGE_MINIMUM (Reserved (no event indicated))&#xA;  0x29, 0x65,                      // USAGE_MAXIMUM (Keyboard Application)&#xA;  0x15, 0x00,                      // LOGICAL_MINIMUM (0)&#xA;  0x25, 0x65,                      // LOGICAL_MAXIMUM (101)&#xA;  0x75, 0x08,                      // REPORT_SIZE (8)&#xA;  0x95, 0x06,                      // REPORT_COUNT (6)&#xA;  0x81, 0x00,                      // INPUT (Data,Ary,Abs)&#xA;  0x05, 0x08,                      // USAGE_PAGE (LEDs)&#xA;  0x19, 0x01,                      // USAGE_MINIMUM (Num Lock)&#xA;  0x29, 0x03,                      // USAGE_MAXIMUM (Scroll Lock)&#xA;  0x15, 0x00,                      // LOGICAL_MINIMUM (0)&#xA;  0x25, 0x01,                      // LOGICAL_MAXIMUM (1)&#xA;  0x75, 0x01,                      // REPORT_SIZE (1)&#xA;  0x95, 0x03,                      // REPORT_COUNT (3)&#xA;  0x91, 0x02,                      // OUTPUT (Data,Var,Abs)&#xA;  0x75, 0x01,                      // REPORT_SIZE (1)&#xA;  0x95, 0x05,                      // REPORT_COUNT (5)&#xA;  0x91, 0x01,                      // OUTPUT (Cnst,Ary,Abs)&#xA;  0xc0                             // END_COLLECTION&#xA;"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.hidreporttemplate" value="Keyboard"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.interfaceclass" value="HID (Human Interface Device)"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.interfacestring" value=""/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.interfacesubclass" value="1"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.protocol" value="1"/>
+    <property object="USBLIB_0" propertyId="library.callbackfunctions.setupcommandcallback" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="library.callbackfunctions.startofframecallback" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="library.libraryconfiguration.clockrecovery" value="Enabled"/>
+    <property object="WDT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="WDT_0" propertyId="wdt.watchdogcontrol.wdtenable" value="Disable"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+  </modeTransition>
+</device:XMLDevice>
